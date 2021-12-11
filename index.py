@@ -5,6 +5,9 @@ root = Tk() #Referance to TK()
 #Width x Height
 root.geometry("404x428")
 
+#title
+root.title("MY first GUI using TK")
+
 #width, height
 root.minsize(400,400) # min size of window
 root.maxsize(800,800) # max size of window
