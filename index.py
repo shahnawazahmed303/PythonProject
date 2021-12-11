@@ -1,12 +1,15 @@
+import os
 from tkinter import *
 from PIL import Image , ImageTk
+
 root = Tk() #Referance to TK()
 
 #Width x Height
 root.geometry("404x428")
 
 #title
-root.title("MY first GUI using TK")
+title = "TKinyer ["+os.getcwd()+"] - Shah nawaz"
+root.title(title)
 
 #width, height
 root.minsize(400,400) # min size of window
