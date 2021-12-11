@@ -3,7 +3,7 @@ from PIL import Image , ImageTk
 root = Tk() #Referance to TK()
 
 #Width x Height
-root.geometry("644x434")
+root.geometry("404x428")
 
 #width, height
 root.minsize(400,400) # min size of window
